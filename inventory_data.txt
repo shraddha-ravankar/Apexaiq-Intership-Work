@@ -1,0 +1,5 @@
+Laptop,60000,10
+Mobile,20000,25
+Switch,1500,30
+Router,3000,15
+Mouse,500,43

@@ -1,0 +1,7 @@
+Python File Handling
+This is write mode
+This line is added later
+Python
+File Handling
+Using writelines method
+shraddha ravankar
