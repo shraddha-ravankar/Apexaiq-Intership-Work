@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM </title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+    #text {
+      color: blue;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 id="text">Hello SSGMCE</h2>
+
+  <button id="changeTextBtn">Change Text</button>
+  <button id="changeColorBtn">Change Color</button>
+  <button id="countBtn">Click Me</button>
+
+  <p id="count">Count: 0</p>
+
+  <script>
+    // DOM selection
+    const text = document.getElementById("text");
+    // const changeTextBtn = document.getElementById("changeTextBtn");
+    // const changeColorBtn = document.getElementById("changeColorBtn");
+    // const countBtn = document.getElementById("countBtn");
+    // const countPara = document.getElementById("count");
+
+    let count = 0;
+
+    // Event handling + DOM manipulation
+    changeTextBtn.addEventListener("click", () => {
+      text.innerHTML = "DOM Manipulated!";
+    });
+
+    changeColorBtn.addEventListener("click", () => {
+      text.style.color = "red";
+    });
+
+    countBtn.addEventListener("click", () => {
+      count++;
+      countPara.innerText = "Count: " + count;
+    });
+  </script>
+
+</body>
+</html>
